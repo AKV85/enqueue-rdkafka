@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => '__root__',
+        'pretty_version' => '1.0.0+no-version-set',
+        'version' => '1.0.0.0',
+        'reference' => NULL,
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        '__root__' => array(
+            'pretty_version' => '1.0.0+no-version-set',
+            'version' => '1.0.0.0',
+            'reference' => NULL,
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'enqueue/rdkafka' => array(
+            'pretty_version' => '0.10.16',
+            'version' => '0.10.16.0',
+            'reference' => '08666d42a673a7b88108689218919496d5e08fe9',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../enqueue/rdkafka',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'queue-interop/queue-interop' => array(
+            'pretty_version' => '0.8.1',
+            'version' => '0.8.1.0',
+            'reference' => '117043fd38490f8b5516622cd4b697b33a89ce2b',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../queue-interop/queue-interop',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);
